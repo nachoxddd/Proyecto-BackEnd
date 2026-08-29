@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Flota y Mantenciones</title>
+    <!-- Integración de Bootstrap para estilos rápidos y profesionales -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- Barra de Navegación Superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">GestiónFlota</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Vehículos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Talleres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Auditoría</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor Principal -->
+    <div class="container mt-5">
+        <!-- Encabezado del Dashboard -->
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h1 class="display-5 fw-bold">Panel de Control Centralizado</h1>
+                <p class="lead text-muted">Digitalización de flota, seguimiento de operaciones e indicadores de gestión.</p>
+            </div>
+        </div>
+
+        <!-- Tarjetas de Acceso a Módulos (Grid) -->
+        <div class="row g-4">
+            
+            <!-- Módulo Vehículos -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-top border-primary border-3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary fw-bold">Flota y Conductores</h5>
+                        <p class="card-text text-secondary mt-3">Consulta el padrón de vehículos, asignaciones actuales y perfiles de conductores autorizados.</p>
+                        <a href="#" class="btn btn-outline-primary mt-2">Gestionar Flota</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Módulo Mantenciones -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-top border-warning border-3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-warning fw-bold">Registros de Taller</h5>
+                        <p class="card-text text-secondary mt-3">Administra órdenes de trabajo, mantenciones preventivas y registra situaciones excepcionales.</p>
+                        <a href="#" class="btn btn-outline-warning mt-2">Ver Mantenciones</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Módulo Reportes -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-top border-success border-3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-success fw-bold">Indicadores de Gestión</h5>
+                        <p class="card-text text-secondary mt-3">Analiza métricas de uso de recursos, tendencias de fallas y revisa el historial de auditoría.</p>
+                        <a href="#" class="btn btn-outline-success mt-2">Generar Reportes</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
