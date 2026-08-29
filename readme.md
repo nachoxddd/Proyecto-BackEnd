@@ -1,1 +1,7 @@
 aparatoreproductor
+Control de Vehículos y Mantenciones
+Empresa con flota necesita digitalizar la gestión de vehículos y mantenimiento. Actualmente gran parte de la información se mantiene distribuida en distintos registros, lo que dificulta el seguimiento de operaciones, la generación de reportes y la coordinación entre los distintos actores involucrados. El sistema deberá centralizar la información relevante y ofrecer mecanismos que permitan mantener datos históricos consistentes.
+
+Los conductores y talleres interactuarán diariamente con la plataforma realizando operaciones que afectan el estado de los registros. Será necesario almacenar antecedentes históricos, controlar situaciones excepcionales, validar reglas de negocio y facilitar consultas complejas utilizando diferentes criterios de búsqueda. Determinados eventos producirán cambios de estado que deberán quedar registrados para efectos de auditoría y seguimiento.
+
+La organización requiere además indicadores de gestión que permitan analizar tendencias, actividad reciente, utilización de recursos y comportamiento de los usuarios. El diseño deberá considerar distintos perfiles de acceso, información pública y privada, relaciones de dependencia entre los datos y procesos que involucren múltiples entidades conectadas entre sí. La descripción entrega suficiente contexto para que el equipo de desarrollo identifique actores, entidades, relaciones, restricciones, reglas de integridad y posibles escenarios de uso.
