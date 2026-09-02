@@ -1,4 +1,3 @@
-aparatoreproductor
 Control de Vehículos y Mantenciones
 Empresa con flota necesita digitalizar la gestión de vehículos y mantenimiento. Actualmente gran parte de la información se mantiene distribuida en distintos registros, lo que dificulta el seguimiento de operaciones, la generación de reportes y la coordinación entre los distintos actores involucrados. El sistema deberá centralizar la información relevante y ofrecer mecanismos que permitan mantener datos históricos consistentes.
 
