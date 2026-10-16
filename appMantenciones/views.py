@@ -22,7 +22,7 @@ from .serializer import (
 
 # Vista de página de inicio (creada en el punto 8)
 def bienvenida(request):
-    return render(request, 'appMantenciones/.html')
+    return render(request, 'appMantenciones/index.html')
 
 
 # Vistas Basadas en Clases (CBV - ModelViewSet) para el CRUD de la API
