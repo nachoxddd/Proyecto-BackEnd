@@ -1,0 +1,72 @@
+[
+    {
+        "model": "appMantenciones.taller",
+        "pk": 1,
+        "fields": {
+            "nombre": "Taller Central Automotriz",
+            "rut_empresa": "76.123.456-7",
+            "direccion": "Av. Industrial 1040",
+            "telefono": "+56911112222",
+            "email": "contacto@tallercentral.cl",
+            "es_interno": true,
+            "encargado": null,
+            "activo": true,
+            "created_at": "2026-10-15T12:00:00Z",
+            "updated_at": "2026-10-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "appMantenciones.taller",
+        "pk": 2,
+        "fields": {
+            "nombre": "Servicio Técnico Diésel Sur",
+            "rut_empresa": "77.987.654-3",
+            "direccion": "Ruta 5 Sur Km 650",
+            "telefono": "+56933334444",
+            "email": "operaciones@dieselsur.cl",
+            "es_interno": false,
+            "encargado": null,
+            "activo": true,
+            "created_at": "2026-10-15T12:00:00Z",
+            "updated_at": "2026-10-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "appMantenciones.vehiculo",
+        "pk": 1,
+        "fields": {
+            "patente": "ABCD-12",
+            "marca": "Toyota",
+            "modelo": "Hilux 2.4",
+            "anio": 2024,
+            "numero_chasis": "8AJBA3CD101234567",
+            "kilometraje_actual": 15200,
+            "kilometraje_proxima_mantencion": 20000,
+            "fecha_vencimiento_revision": "2027-05-30",
+            "estado": "DISPONIBLE",
+            "observaciones_publicas": "Camioneta equipada con barra antivuelco y GPS.",
+            "notas_administrativas_privadas": "Póliza de seguro vigente hasta diciembre.",
+            "created_at": "2026-10-15T12:00:00Z",
+            "updated_at": "2026-10-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "appMantenciones.vehiculo",
+        "pk": 2,
+        "fields": {
+            "patente": "FGHI-34",
+            "marca": "Peugeot",
+            "modelo": "Partner",
+            "anio": 2023,
+            "numero_chasis": "VF37B9HF009876543",
+            "kilometraje_actual": 39500,
+            "kilometraje_proxima_mantencion": 40000,
+            "fecha_vencimiento_revision": "2027-03-15",
+            "estado": "EN_MANTENCION",
+            "observaciones_publicas": "Próxima a revisión de los 40.000 km.",
+            "notas_administrativas_privadas": "Revisar garantía de embrague con proveedor.",
+            "created_at": "2026-10-15T12:00:00Z",
+            "updated_at": "2026-10-15T12:00:00Z"
+        }
+    }
+]
